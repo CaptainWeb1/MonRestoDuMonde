@@ -11,6 +11,8 @@
 		70AA21BA2297E6B7000881E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AA21B82297E6B7000881E3 /* Main.storyboard */; };
 		70AA21BC2297E6B9000881E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70AA21BB2297E6B9000881E3 /* Assets.xcassets */; };
 		70AA21BF2297E6B9000881E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70AA21BD2297E6B9000881E3 /* LaunchScreen.storyboard */; };
+		70AA21CA2297E901000881E3 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21C92297E901000881E3 /* MenuController.swift */; };
+		70AA21CC2297E962000881E3 /* ALaCarteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21CB2297E962000881E3 /* ALaCarteController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		70AA21BB2297E6B9000881E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70AA21BE2297E6B9000881E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70AA21C02297E6B9000881E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70AA21C92297E901000881E3 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		70AA21CB2297E962000881E3 /* ALaCarteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarteController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,9 @@
 		70AA21B32297E6B7000881E3 /* MonRestoDuMonde */ = {
 			isa = PBXGroup;
 			children = (
+				70AA21C62297E8A3000881E3 /* Modele */,
+				70AA21C72297E8AF000881E3 /* Vue */,
+				70AA21C82297E8B3000881E3 /* Controlleur */,
 				70AA21B42297E6B7000881E3 /* AppDelegate.swift */,
 				70AA21B82297E6B7000881E3 /* Main.storyboard */,
 				70AA21BB2297E6B9000881E3 /* Assets.xcassets */,
@@ -59,6 +66,29 @@
 				70AA21C02297E6B9000881E3 /* Info.plist */,
 			);
 			path = MonRestoDuMonde;
+			sourceTree = "<group>";
+		};
+		70AA21C62297E8A3000881E3 /* Modele */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modele;
+			sourceTree = "<group>";
+		};
+		70AA21C72297E8AF000881E3 /* Vue */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vue;
+			sourceTree = "<group>";
+		};
+		70AA21C82297E8B3000881E3 /* Controlleur */ = {
+			isa = PBXGroup;
+			children = (
+				70AA21C92297E901000881E3 /* MenuController.swift */,
+				70AA21CB2297E962000881E3 /* ALaCarteController.swift */,
+			);
+			path = Controlleur;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +162,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70AA21CA2297E901000881E3 /* MenuController.swift in Sources */,
 				70AA21B52297E6B7000881E3 /* AppDelegate.swift in Sources */,
+				70AA21CC2297E962000881E3 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
