@@ -17,10 +17,41 @@
                     <view key="view" contentMode="scaleToFill" id="6po-Vf-EfG">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lVD-Yq-7td">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Dzb-V4-l64">
+                                    <size key="itemSize" width="174" height="176"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MenuCell" id="qfw-SA-eUW" customClass="MenuCell" customModule="MonRestoDuMonde" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="174" height="176"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                            <rect key="frame" x="0.0" y="0.0" width="174" height="176"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="lVD-Yq-7td" firstAttribute="trailing" secondItem="U4R-EJ-IfY" secondAttribute="trailing" id="Uxh-xf-w46"/>
+                            <constraint firstItem="lVD-Yq-7td" firstAttribute="top" secondItem="U4R-EJ-IfY" secondAttribute="top" id="jFP-RV-ubp"/>
+                            <constraint firstItem="lVD-Yq-7td" firstAttribute="leading" secondItem="U4R-EJ-IfY" secondAttribute="leading" id="ldc-Z1-c1B"/>
+                            <constraint firstItem="lVD-Yq-7td" firstAttribute="bottom" secondItem="U4R-EJ-IfY" secondAttribute="bottom" id="ydX-53-M2b"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="U4R-EJ-IfY"/>
                     </view>
                     <navigationItem key="navigationItem" id="awY-cY-Ukd"/>
+                    <connections>
+                        <outlet property="collectionView" destination="lVD-Yq-7td" id="UPh-m2-meL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tme-iT-DoO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
