@@ -21,6 +21,9 @@
 		70AA21D922982DB5000881E3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D822982DB5000881E3 /* Enums.swift */; };
 		70AA21DB22982EBC000881E3 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21DA22982EBC000881E3 /* Menu.swift */; };
 		70AA21DD22983034000881E3 /* LesPlats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21DC22983034000881E3 /* LesPlats.swift */; };
+		70AA21DF22983DD7000881E3 /* Degrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21DE22983DD7000881E3 /* Degrade.swift */; };
+		70AA21E122984323000881E3 /* PlatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21E022984323000881E3 /* PlatCell.swift */; };
+		70AA21E322984617000881E3 /* ALaCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21E222984617000881E3 /* ALaCarte.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +43,9 @@
 		70AA21D822982DB5000881E3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		70AA21DA22982EBC000881E3 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		70AA21DC22983034000881E3 /* LesPlats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LesPlats.swift; sourceTree = "<group>"; };
+		70AA21DE22983DD7000881E3 /* Degrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Degrade.swift; sourceTree = "<group>"; };
+		70AA21E022984323000881E3 /* PlatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatCell.swift; sourceTree = "<group>"; };
+		70AA21E222984617000881E3 /* ALaCarte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALaCarte.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,7 @@
 				70AA21D822982DB5000881E3 /* Enums.swift */,
 				70AA21DA22982EBC000881E3 /* Menu.swift */,
 				70AA21DC22983034000881E3 /* LesPlats.swift */,
+				70AA21E222984617000881E3 /* ALaCarte.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -100,6 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				70AA21D4229829B1000881E3 /* MenuCell.swift */,
+				70AA21DE22983DD7000881E3 /* Degrade.swift */,
+				70AA21E022984323000881E3 /* PlatCell.swift */,
 			);
 			path = Vue;
 			sourceTree = "<group>";
@@ -197,7 +206,10 @@
 				70AA21D5229829B1000881E3 /* MenuCell.swift in Sources */,
 				70AA21D12297EB85000881E3 /* Constantes.swift in Sources */,
 				70AA21CE2297EB40000881E3 /* MonTabBar.swift in Sources */,
+				70AA21E122984323000881E3 /* PlatCell.swift in Sources */,
 				70AA21D32297EEF8000881E3 /* MonNav.swift in Sources */,
+				70AA21DF22983DD7000881E3 /* Degrade.swift in Sources */,
+				70AA21E322984617000881E3 /* ALaCarte.swift in Sources */,
 				70AA21DB22982EBC000881E3 /* Menu.swift in Sources */,
 				70AA21CA2297E901000881E3 /* MenuController.swift in Sources */,
 				70AA21DD22983034000881E3 /* LesPlats.swift in Sources */,
