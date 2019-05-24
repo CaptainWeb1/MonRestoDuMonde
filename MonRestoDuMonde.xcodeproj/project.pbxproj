@@ -17,6 +17,8 @@
 		70AA21D12297EB85000881E3 /* Constantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D02297EB85000881E3 /* Constantes.swift */; };
 		70AA21D32297EEF8000881E3 /* MonNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D22297EEF8000881E3 /* MonNav.swift */; };
 		70AA21D5229829B1000881E3 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D4229829B1000881E3 /* MenuCell.swift */; };
+		70AA21D722982D81000881E3 /* Plat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D622982D81000881E3 /* Plat.swift */; };
+		70AA21D922982DB5000881E3 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AA21D822982DB5000881E3 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		70AA21D02297EB85000881E3 /* Constantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constantes.swift; sourceTree = "<group>"; };
 		70AA21D22297EEF8000881E3 /* MonNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonNav.swift; sourceTree = "<group>"; };
 		70AA21D4229829B1000881E3 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		70AA21D622982D81000881E3 /* Plat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plat.swift; sourceTree = "<group>"; };
+		70AA21D822982DB5000881E3 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		70AA21C62297E8A3000881E3 /* Modele */ = {
 			isa = PBXGroup;
 			children = (
+				70AA21D622982D81000881E3 /* Plat.swift */,
+				70AA21D822982DB5000881E3 /* Enums.swift */,
 			);
 			path = Modele;
 			sourceTree = "<group>";
@@ -188,6 +194,8 @@
 				70AA21D32297EEF8000881E3 /* MonNav.swift in Sources */,
 				70AA21CA2297E901000881E3 /* MenuController.swift in Sources */,
 				70AA21B52297E6B7000881E3 /* AppDelegate.swift in Sources */,
+				70AA21D722982D81000881E3 /* Plat.swift in Sources */,
+				70AA21D922982DB5000881E3 /* Enums.swift in Sources */,
 				70AA21CC2297E962000881E3 /* ALaCarteController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
